@@ -3,10 +3,14 @@
     --color-orangey-yellow: 39, 100%, 56%;
     --color-green-teal: 166, 100%, 37%;
     --color-cobalt-blue: 234, 85%, 45%;
+    --color-background-light-slate-blue: 252, 100%, 67%;
+    --color-background-light-royal-blue:241, 81%, 54%;
 }
 
 body{
     min-height: 100vh;
+
+    font-family: 'Hanken Grotesk', sans-serif;
 
     display: flex;
     flex-direction: column;
@@ -24,9 +28,11 @@ body{
 
 main{
     background-image: linear-gradient(
-        hsl(252, 100%, 67%),
-        hsl(241, 81%, 54%)
+        hsl(var(--color-background-light-slate-blue)),
+        hsl(var(--color-background-light-royal-blue))
     );
+
+    border-radius: 2rem;
 }
 
 /*FOOTER*/
