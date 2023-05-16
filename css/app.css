@@ -1,3 +1,10 @@
+:root{
+    --color-light-red: 0, 100%, 67%;
+    --color-orangey-yellow: 39, 100%, 56%;
+    --color-green-teal: 166, 100%, 37%;
+    --color-cobalt-blue: 234, 85%, 45%;
+}
+
 body{
     min-height: 100vh;
 
@@ -12,7 +19,14 @@ body{
     height: 36rem;
 
     display: grid;
-    grid-template-columns: 1fr 100vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+main{
+    background-image: linear-gradient(
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+    );
 }
 
 /*FOOTER*/
