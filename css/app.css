@@ -35,6 +35,39 @@ main{
     border-radius: 2rem;
 }
 
+aside{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+ul{
+    padding: 1rem;
+}
+
+li{
+    background: wheat; /*todo change color*/
+
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+
+    list-style: none;
+}
+
+a.button{
+    text-decoration: none;
+    color: white;
+
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+
+    text-align: center;
+
+    background: blue; /*todo change color*/
+}
+
 /*FOOTER*/
 .attribution {
     font-size: 11px;
