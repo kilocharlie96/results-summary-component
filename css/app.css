@@ -48,8 +48,8 @@ main{
         hsla(var(--color-circle-violet-blue)),
         hsla(var(--color-circle-persian-blue))
     );
-    width: 15vw;
-    height: 15vw;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50vw;
     display: flex;
     align-items: center;
