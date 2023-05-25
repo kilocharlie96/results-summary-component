@@ -4,7 +4,10 @@
     --color-green-teal: 166, 100%, 37%;
     --color-cobalt-blue: 234, 85%, 45%;
     --color-background-light-slate-blue: 252, 100%, 67%;
-    --color-background-light-royal-blue:241, 81%, 54%;
+    --color-background-light-royal-blue: 241, 81%, 54%;
+    --color-circle-violet-blue: 256, 72%, 46%, 1;
+    --color-circle-persian-blue: 241, 72%, 46%, 0;
+    
 }
 
 body{
@@ -33,10 +36,18 @@ main{
     );
 
     border-radius: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .result{
-    background-color: red;
+    background-image: linear-gradient(
+        hsla(var(--color-circle-violet-blue)),
+        hsla(var(--color-circle-persian-blue))
+    );
     width: 15vw;
     height: 15vw;
     border-radius: 50vw;
@@ -44,10 +55,6 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-figure{
-    margin: 0;
 }
 
 aside{
