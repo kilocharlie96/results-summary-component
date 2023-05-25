@@ -35,6 +35,21 @@ main{
     border-radius: 2rem;
 }
 
+.result{
+    background-color: red;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+figure{
+    margin: 0;
+}
+
 aside{
     display:flex;
     flex-direction: column;
