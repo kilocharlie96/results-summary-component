@@ -8,8 +8,8 @@
 
 main{
     background-image: linear-gradient(
-        hsl(var(--color-background-light-slate-blue)),
-        hsl(var(--color-background-light-royal-blue))
+        var(--color-background-light-slate-blue),
+        var(--color-background-light-royal-blue)
     );
     color: hsl(0, 0%, 100%);
 
@@ -22,13 +22,13 @@ main{
 }
 
 small,h3, p{
-    color: hsl(241, 100%, 89%);
+    color: var(--color-light-lavender);
 }
 
 .result{
     background-image: linear-gradient(
-        hsla(var(--color-circle-violet-blue)),
-        hsla(var(--color-circle-persian-blue))
+        var(--color-circle-violet-blue),
+        var(--color-circle-persian-blue)
     );
     width: 10vw;
     height: 10vw;
@@ -37,11 +37,4 @@ small,h3, p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-p{
-    width: 19vw;
-
-    font-size: 1.125rem;
-    text-align: center;
 }
