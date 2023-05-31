@@ -48,5 +48,5 @@ a.button{
 
     text-align: center;
 
-    background: blue; /*todo change color*/
+    background: var(--color-dark-gray-blue);
 }
