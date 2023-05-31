@@ -38,3 +38,10 @@ small,h3, p{
     justify-content: center;
     flex-direction: column;
 }
+
+p{
+    width: 19vw;
+
+    font-size: 1.125rem;
+    text-align: center;
+}
