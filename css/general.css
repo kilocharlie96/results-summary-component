@@ -1,0 +1,35 @@
+:root{
+    --color-light-red: 0, 100%, 67%;
+    --color-orangey-yellow: 39, 100%, 56%;
+    --color-green-teal: 166, 100%, 37%;
+    --color-cobalt-blue: 234, 85%, 45%;
+    --color-background-light-slate-blue: 252, 100%, 67%;
+    --color-background-light-royal-blue: 241, 81%, 54%;
+    --color-circle-violet-blue: 256, 72%, 46%, 1;
+    --color-circle-persian-blue: 241, 72%, 46%, 0;
+    
+}
+
+body{
+    min-height: 95vh;
+
+    font-family: 'Hanken Grotesk', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: auto;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
