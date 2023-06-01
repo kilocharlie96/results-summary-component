@@ -1,12 +1,13 @@
 .app{
-    width: 52rem;
-    height: 36rem;
+    width: 50vw;
+    height: 60vh;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 main{
+    min-width: 10rem;
     background-image: linear-gradient(
         var(--color-background-light-slate-blue),
         var(--color-background-light-royal-blue)
