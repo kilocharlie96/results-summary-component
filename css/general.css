@@ -11,8 +11,10 @@
         hsl(252, 100%, 67%),
         hsl(241, 81%, 54%)
     );
-    --color-circle-violet-blue: hsla(256, 72%, 46%, 1);
-    --color-circle-persian-blue: hsla(241, 72%, 46%, 0);
+    --color-circle-background: linear-gradient(
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+    );
     --color-light-lavender: hsl(241, 100%, 89%);
     --color-dark-gray-blue: hsl(224, 30%, 27%);
     --color-white: hsl(0, 0%, 100%);
