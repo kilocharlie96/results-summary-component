@@ -1,7 +1,6 @@
 aside{
     display:flex;
     flex-direction: column;
-    
 }
 
 ul{
@@ -19,10 +18,6 @@ li{
     border-radius: 1rem;
 
     list-style: none;
-}
-
-p.summary{
-    margin: 0;
 }
 
 li.reaction{
