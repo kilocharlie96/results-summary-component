@@ -9,13 +9,20 @@ ul{
 }
 
 li{
-    background: wheat; /*todo change color*/
-
     padding: 1rem;
     margin-bottom: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
     border-radius: 1rem;
 
     list-style: none;
+}
+
+p.summary{
+    margin: 0;
 }
 
 li.reaction{
@@ -39,14 +46,14 @@ li.visual{
 }
 
 a.button{
+    background: var(--color-dark-gray-blue);
+
     text-decoration: none;
     color: white;
+    text-align: center;
 
     padding: 1rem;
     margin: 1rem;
+
     border-radius: 2rem;
-
-    text-align: center;
-
-    background: var(--color-dark-gray-blue);
 }

@@ -21,7 +21,7 @@ main{
     flex-direction: column;
 }
 
-small,h3, p{
+small,h3, p.comparsion{
     color: var(--color-light-lavender);
 }
 
@@ -30,18 +30,15 @@ small,h3, p{
         var(--color-circle-violet-blue),
         var(--color-circle-persian-blue)
     );
+
     width: 10vw;
     height: 10vw;
+
     border-radius: 50vw;
+
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-p{
-    width: 19vw;
-
-    font-size: 1.125rem;
-    text-align: center;
 }
