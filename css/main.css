@@ -43,3 +43,8 @@ small,h3, p.comparsion{
     justify-content: center;
     flex-direction: column;
 }
+
+p.comparsion{
+    width: 16vw;
+    text-align: center;
+}
