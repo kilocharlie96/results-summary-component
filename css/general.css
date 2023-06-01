@@ -13,6 +13,7 @@
     --color-circle-persian-blue: hsla(241, 72%, 46%, 0);
     --color-light-lavender: hsl(241, 100%, 89%);
     --color-dark-gray-blue: hsl(224, 30%, 27%);
+    --color-white: hsl(0, 0%, 100%);
 }
 
 body{

@@ -11,7 +11,7 @@ main{
         var(--color-background-light-slate-blue),
         var(--color-background-light-royal-blue)
     );
-    color: hsl(0, 0%, 100%);
+    color: var(--color-white);
 
     border-radius: 2rem;
 
