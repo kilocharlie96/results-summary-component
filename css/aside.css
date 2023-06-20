@@ -3,13 +3,22 @@ aside{
     flex-direction: column;
 }
 
+aside h2{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+
+    font-size: 1.5rem;
+}
+
 ul{
     padding: 1rem;
+    margin: 0;
 }
 
 li{
-    padding: 1rem;
-    margin-bottom: 0.5rem;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
 
     display: flex;
     flex-direction: row;
@@ -48,7 +57,7 @@ a.button{
     text-align: center;
 
     padding: 1rem;
-    margin: 1rem;
+    margin: 0 1rem;
 
     border-radius: 2rem;
 }
