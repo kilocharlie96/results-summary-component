@@ -19,6 +19,7 @@
     --color-dark-gray-blue: hsl(224, 30%, 27%);
     --color-white: hsl(0, 0%, 100%);
 }
+
 body{
     min-height: 95vh;
 
@@ -28,6 +29,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.app{
+    width: 50vw;
+    height: 60vh;
+    border-radius: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    box-shadow: 3rem 3rem 3rem rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3{

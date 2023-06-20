@@ -1,11 +1,3 @@
-.app{
-    width: 50vw;
-    height: 60vh;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 main{
     min-width: 10rem;
     background-image: var(--color-gradient-background);
@@ -36,6 +28,10 @@ small,h3, p.comparsion{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.result h1{
+    font-size: 2.5rem;
 }
 
 p.comparsion{
