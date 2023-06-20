@@ -11,6 +11,10 @@ main{
     flex-direction: column;
 }
 
+main h3{
+    font-size: 1.5rem;
+}
+
 .result{
     background-image: var(--color-circle-background);
 
